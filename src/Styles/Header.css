@@ -1,0 +1,31 @@
+.logo{
+    height: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+.img-logo{
+    height: 90px;
+}
+
+.logo2{
+    display: none;
+    
+}
+
+.nav{
+    
+}
+
+@media (max-width: 640px) { 
+    .img-logo{
+        display: none;
+    }
+
+    .logo2{
+        display: inline;
+        height: 70px;
+        margin: 10px;
+    }
+}
