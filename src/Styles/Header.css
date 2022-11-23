@@ -4,28 +4,44 @@
     color: white;
 
 }
+.nav{
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.favoritos{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px 0 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
 
 .img-logo{
     height: 90px;
+    cursor: pointer;
 }
 
 .logo2{
     display: none;
-    
-}
-
-.nav{
+    cursor: pointer;
     
 }
 
 @media (max-width: 640px) { 
     .img-logo{
         display: none;
+        cursor: pointer;
     }
 
     .logo2{
         display: inline;
         height: 70px;
         margin: 10px;
+        cursor: pointer;
     }
 }
