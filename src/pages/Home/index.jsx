@@ -22,7 +22,6 @@ function Home() {
           page: 1,
         }
       })
-      console.log(response.data.results)
       setFilmes(response.data.results.slice(0,15))
     }
     loadFilmes()
@@ -32,7 +31,7 @@ function Home() {
       <Header></Header>
       <main className='Main'>
 
-        { filmes.map((f)=> (<Card key={f.id} title={f.title} overview={f.overview} poster_path={f.poster_path} release_date={f.release_date} ></Card>)) }
+        { filmes.map((f)=> (<Card key={f.id} title={f.title} overview={f.overview} poster_path={f.poster_path} release_date={f.release_date} vote_average={f.vote_average}></Card>)) }
        
       </main>
     </div>

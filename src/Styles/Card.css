@@ -41,3 +41,39 @@
 h3{
     margin: 0px;
 }
+
+.img_nota{
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.img{
+    padding-right: 20px;
+}
+
+.botao{
+    
+    margin-top: 10px;
+    padding: 8px;
+    color: white;
+    background-color: #000000;
+    border-radius: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 3px #999;
+}
+
+.botao:active{
+    background-color: #000000;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+.botao:hover{
+    background-color: #1b1b1b;
+}
+
+.div_botao{
+    display: flex;
+    justify-content: space-around;
+}
