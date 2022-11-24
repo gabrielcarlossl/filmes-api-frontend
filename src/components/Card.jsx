@@ -12,7 +12,7 @@ function generateRandomColor() {
     return `#${randColor.toUpperCase()}`
 }
 
-function Card({ title, overview, poster_path, release_date, vote_average }) {
+function Card({ id,title, overview, poster_path, release_date, vote_average }) {
 
     const cardStyle = {
         backgroundColor: generateRandomColor() || '#000000',
@@ -48,7 +48,7 @@ function Card({ title, overview, poster_path, release_date, vote_average }) {
 
                 <div className='div_botao'>
 
-                    <Link>
+                    <Link to={`/filme/${id}`}>
                         <button className='botao'>Acessar</button>
                     </Link>
                 </div>
