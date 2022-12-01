@@ -1,0 +1,51 @@
+.filme{
+    padding: 100px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    
+    
+    
+}
+
+.filme > h1{
+    margin: 20px
+}
+.filme > h3{
+    margin: 20px;
+}
+
+.filme > img{
+    border-radius: 10px;
+}
+
+@media(max-width: 640px){
+    .filme > img{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+.area-buttons button {
+    margin-right: 12px;
+    margin-top: 14px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.area-buttons a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.area-buttons button:hover{
+    background-color: rgb(99, 99, 99);
+}

@@ -6,6 +6,7 @@ import '../../Styles/Home.css'
 
 import { useEffect, useState } from 'react'
 import api from '../../services/api'
+import Loading from '../../components/Loading'
 
 // /movie/now_playing?api_key=5f7ec3e3b383771eda6099c788d36eec&language=pt-BR
 
@@ -32,10 +33,7 @@ function Home() {
 
   if (loading) {
     return (
-      <div className='loading_page'>
-        <h2>Carregando Filmes...</h2>
-        <div className='loading'></div>
-      </div>
+      <Loading titulo={'Filmes'}></Loading>
     )
   }
 
