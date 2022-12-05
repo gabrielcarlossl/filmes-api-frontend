@@ -4,7 +4,7 @@
 
 ## Functionalities:
 
-- See movies details
+- Movies details
 - Save to favorite 
 - Movie trailer
 
