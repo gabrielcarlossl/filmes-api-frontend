@@ -10,10 +10,12 @@ function Header() {
       <div className='logo'>
         <Link to='/'>
 
-          <img className='img-logo' src='https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456' alt="" />
-          <img className='logo2' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/564px-Netflix_2015_N_logo.svg.png" alt=''></img>
+          <img className='img-logo' src='https://cdn-icons-png.flaticon.com/512/9709/9709592.png' alt="" />
+          <img className='logo2' src="https://cdn-icons-png.flaticon.com/512/9709/9709592.png" alt=''></img>
+          
         </Link>
       </div>
+      <span className='title'>Filmes em Cartaz</span>
       <div>
 
         <Link className='favoritos' to='/favoritos'>Meus Filmes</Link>
